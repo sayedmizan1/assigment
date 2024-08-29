@@ -1,0 +1,34 @@
+/* NavBar.css */
+
+.nav-bar {
+    background-color: #333; /* dark gray background */
+    padding: 1em; /* add some padding */
+    display: flex; /* make it a flex container */
+    justify-content: space-between; /* space out the links */
+    align-items: center; /* center the links vertically */
+  }
+  
+  .nav-bar ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    display: flex; /* make it a flex container */
+  }
+  
+  .nav-bar li {
+    margin-right: 20px; /* add some space between links */
+  }
+  
+  .nav-bar a {
+    color: #fff; /* white text color */
+    text-decoration: none; /* remove underline */
+    transition: color 0.2s ease; /* add a smooth transition effect */
+  }
+  
+  .nav-bar a:hover {
+    color: #ccc; /* light gray text color on hover */
+  }
+  
+  .nav-bar a.active {
+    color: #66d9ef; /* blue text color for active link */
+  }
